@@ -36,7 +36,7 @@ function Index() {
         </div>
         <div className="md:col-span-8">
           <h2 className="text-3xl md:text-5xl leading-tight">
-            A small studio devoted to honest, unhurried photography — for weddings, families, and the people you love.
+            A small studio devoted to honest, unhurried photography — for portraits, events, and the people you love.
           </h2>
           <Link to="/about" className="inline-block mt-8 eyebrow text-foreground border-b border-foreground pb-1">
             More about us →
@@ -47,9 +47,9 @@ function Index() {
       {/* Featured triptych */}
       <section className="mx-auto max-w-7xl px-6 md:px-10 pb-24 grid md:grid-cols-3 gap-4 md:gap-6">
         {[
-          { src: g1, label: "Weddings" },
-          { src: g3, label: "Newborn" },
-          { src: g4, label: "Family" },
+          { src: g1, label: "Portraits" },
+          { src: g3, label: "Bike Photoshoot" },
+          { src: g4, label: "Car Photoshoot" },
         ].map((it) => (
           <Link key={it.label} to="/gallery" className="group block">
             <div className="aspect-[4/5] overflow-hidden bg-muted">

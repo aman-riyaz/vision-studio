@@ -14,12 +14,12 @@ export const Route = createFileRoute("/gallery")({
 });
 
 const items = [
-  { src: g1, cat: "Weddings", title: "Golden field" },
-  { src: g2, cat: "Portraits", title: "Half light" },
-  { src: g3, cat: "Newborn", title: "First days" },
-  { src: g4, cat: "Family", title: "Morning tide" },
-  { src: g5, cat: "Weddings", title: "Wildflowers" },
-  { src: g6, cat: "Couples", title: "October walk" },
+  { src: g1, cat: "Portraits", title: "Portraits" },
+  { src: g2, cat: "Events", title: "Events" },
+  { src: g3, cat: "Bike", title: "Bike Photoshoot" },
+  { src: g4, cat: "Car", title: "Car Photoshoot" },
+  { src: g5, cat: "Camera", title: "Camera for Rent" },
+  { src: g6, cat: "Drone", title: "Drone for Rent" },
 ];
 
 const cats = ["All", "Weddings", "Portraits", "Family", "Newborn", "Couples"];

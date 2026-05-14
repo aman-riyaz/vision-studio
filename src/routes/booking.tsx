@@ -7,8 +7,8 @@ export const Route = createFileRoute("/booking")({
   component: Booking,
   head: () => ({
     meta: [
-      { title: "Booking — Aperture Studio" },
-      { name: "description", content: "Book a photography session. Weddings, portraits, family and newborn — pricing in INR." },
+      { title: "Booking — Vision Studio" },
+      { name: "description", content: "Book a photography session. portraits, personal and events — pricing in INR." },
     ],
   }),
 });

@@ -18,7 +18,7 @@ export const Route = createFileRoute("/admin")({
   component: Admin,
   head: () => ({
     meta: [
-      { title: "Admin — Aperture Studio" },
+      { title: "Admin — Vision Studio" },
       { name: "robots", content: "noindex" },
     ],
   }),

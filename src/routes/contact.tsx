@@ -6,8 +6,8 @@ export const Route = createFileRoute("/contact")({
   component: Contact,
   head: () => ({
     meta: [
-      { title: "Contact — Aperture Studio" },
-      { name: "description", content: "Get in touch with Aperture Studio." },
+      { title: "Contact — Vision Studio" },
+      { name: "description", content: "Get in touch with Vision Studio." },
     ],
   }),
 });
@@ -19,12 +19,12 @@ function Contact() {
       <section className="mx-auto max-w-7xl px-6 md:px-10 pt-32 md:pt-40 pb-20 grid md:grid-cols-12 gap-10">
         <div className="md:col-span-5">
           <p className="eyebrow">Contact</p>
-          <h1 className="mt-4 text-4xl md:text-6xl">Say hello.</h1>
+          <h1 className="mt-4 text-4xl md:text-6xl">Hey There.</h1>
           <div className="mt-8 space-y-4 text-muted-foreground">
-            <p>hello@aperture.studio</p>
-            <p>+91 98200 11234</p>
-            <p>12 Linden Lane<br />Bandra West, Mumbai 400050</p>
-            <p>Mon–Fri · 10:00–18:00 IST</p>
+            <p>hello@Vision.studio</p>
+            <p>+91 8792042301</p>
+            <p>karnataka <br />Kumta 581343</p>
+            <p>Mon–Sat · 9:00–18:00 IST</p>
           </div>
         </div>
         <div className="md:col-span-7">
