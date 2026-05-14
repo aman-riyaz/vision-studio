@@ -18,7 +18,7 @@ function Index() {
         <img src={hero} alt="Editorial portrait" width={1600} height={1920} className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/60" />
         <div className="relative z-10 h-full mx-auto max-w-7xl px-6 md:px-10 flex flex-col justify-end pb-24">
-          <p className="eyebrow text-white/80">Est. 2014 — Brooklyn</p>
+          <p className="eyebrow text-white/80"></p>
           <h1 className="mt-4 text-white text-5xl md:text-7xl lg:text-8xl leading-[1.05] max-w-4xl">
             Photographs that hold the quiet moments.
           </h1>
@@ -65,16 +65,16 @@ function Index() {
       <section className="bg-secondary">
         <div className="mx-auto max-w-4xl px-6 md:px-10 py-24 md:py-32 text-center">
           <p className="font-display text-3xl md:text-5xl leading-snug text-foreground">
-            “She has a way of making you forget there’s a camera at all. The photographs feel like memory itself.”
+            “Photographers turn moments into memories.”
           </p>
-          <p className="eyebrow mt-8">— Maya & Jonas, married Sept ’24</p>
+          <p className="eyebrow mt-8">— By TEAM </p>
         </div>
       </section>
 
       {/* CTA */}
       <section className="mx-auto max-w-7xl px-6 md:px-10 py-24 md:py-32 text-center">
-        <p className="eyebrow">Now booking</p>
-        <h2 className="mt-4 text-4xl md:text-6xl">Spring & summer dates available.</h2>
+        <p className="eyebrow">Book Now</p>
+        <h2 className="mt-4 text-4xl md:text-6xl">Make your event unforgettable.</h2>
         <Link to="/booking" className="btn-primary mt-10">Reserve your date</Link>
       </section>
     </SiteLayout>
