@@ -6,8 +6,8 @@ export const Route = createFileRoute("/about")({
   component: About,
   head: () => ({
     meta: [
-      { title: "About — Aperture Studio" },
-      { name: "description", content: "Meet the photographer behind Aperture Studio." },
+      { title: "About — Vision Studio" },
+      { name: "description", content: "Meet the photographers behind Vision Studio." },
     ],
   }),
 });
@@ -22,25 +22,24 @@ function About() {
         <div className="md:col-span-7">
           <p className="eyebrow">About</p>
           <h1 className="mt-4 text-4xl md:text-6xl leading-tight">
-            I make photographs that feel like memory.
+           We capture moments with creativity and passion.
           </h1>
           <p className="mt-6 text-lg text-muted-foreground max-w-xl">
-            Aperture is a small studio based in Brooklyn with clients across India and beyond.
-            For twelve years I've documented weddings, families and intimate portraits — quietly,
-            patiently, and always on film and digital both.
+            Vision Studio is a small photography studio where we capture portraits, personal photoshoots, rent out gadgets and many more cool stuff with creative ideas and natural photography style. We always try to make every moment special and memorable for our customers -   
+            Team Vision Studio (Aman, Shrinivas, Shravan, Manoj) 
           </p>
 
           <div className="mt-10 grid grid-cols-3 gap-6 max-w-md">
             <div>
-              <div className="font-display text-4xl">12</div>
+              <div className="font-display text-4xl">5</div>
               <p className="eyebrow mt-1">Years</p>
             </div>
             <div>
-              <div className="font-display text-4xl">180+</div>
-              <p className="eyebrow mt-1">Weddings</p>
+              <div className="font-display text-4xl">100+</div>
+              <p className="eyebrow mt-1">Events</p>
             </div>
             <div>
-              <div className="font-display text-4xl">9</div>
+              <div className="font-display text-4xl">3</div>
               <p className="eyebrow mt-1">Countries</p>
             </div>
           </div>

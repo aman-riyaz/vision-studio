@@ -72,9 +72,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Aperture Studio — Fine Art Photography" },
-      { name: "description", content: "Editorial wedding, portrait & family photography. Book your session with Aperture Studio." },
-      { property: "og:title", content: "Aperture Studio — Fine Art Photography" },
+      { title: "Vision Studio — Fine Art Photography" },
+      { name: "description", content: "Pportraits & event photography. Book your session with Vision Studio." },
+      { property: "og:title", content: "Vision Studio — Fine Art Photography" },
       { property: "og:description", content: "Editorial wedding, portrait & family photography." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },

@@ -10,7 +10,7 @@ import g6 from "@/assets/g6.jpg";
 
 export const Route = createFileRoute("/gallery")({
   component: Gallery,
-  head: () => ({ meta: [{ title: "Gallery — Aperture Studio" }, { name: "description", content: "A selection of weddings, portraits, and family work from Aperture Studio." }] }),
+  head: () => ({ meta: [{ title: "Gallery — Vision Studio" }, { name: "description", content: "A selection of portraits, and events work from Vision Studio." }] }),
 });
 
 const items = [
@@ -22,7 +22,7 @@ const items = [
   { src: g6, cat: "Drone", title: "Drone for Rent" },
 ];
 
-const cats = ["All", "Weddings", "Portraits", "Family", "Newborn", "Couples"];
+const cats = ["All", "Portraits", "Events", "Bike", "Car", "For Rent"];
 
 function Gallery() {
   const [active, setActive] = useState("All");
@@ -34,7 +34,7 @@ function Gallery() {
         <p className="eyebrow">Portfolio</p>
         <h1 className="mt-4 text-5xl md:text-7xl">Gallery</h1>
         <p className="mt-6 max-w-2xl text-muted-foreground">
-          A small, rotating selection. Full collections are shared during your consultation.
+          A few moments through our lens.
         </p>
         <div className="mt-10 flex flex-wrap gap-x-6 gap-y-3 border-b border-border pb-4">
           {cats.map((c) => (

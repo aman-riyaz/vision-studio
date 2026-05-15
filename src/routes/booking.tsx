@@ -67,7 +67,7 @@ function Booking() {
         <p className="eyebrow">Booking</p>
         <h1 className="mt-4 text-4xl md:text-6xl max-w-3xl">Reserve your session.</h1>
         <p className="mt-4 text-muted-foreground max-w-2xl">
-          All prices listed in Indian Rupees (INR). A 25% retainer secures your date.
+          All prices listed in Indian Rupees (INR).
         </p>
       </section>
 

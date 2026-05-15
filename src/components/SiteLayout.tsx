@@ -17,7 +17,7 @@ export function SiteLayout({ children }: { children: React.ReactNode }) {
       <header className="absolute top-0 left-0 right-0 z-50">
         <div className="mx-auto max-w-7xl px-6 md:px-10 py-6 flex items-center justify-between">
           <Link to="/" className="font-display text-2xl tracking-tight">
-            Aperture<span className="text-accent">.</span>
+            Vision Studio<span className="text-accent">.</span>
           </Link>
           <nav className="hidden md:flex items-center gap-10">
             {nav.map((n) => (
@@ -55,23 +55,23 @@ export function SiteLayout({ children }: { children: React.ReactNode }) {
       <footer className="border-t border-border mt-24">
         <div className="mx-auto max-w-7xl px-6 md:px-10 py-12 grid md:grid-cols-3 gap-8 items-start">
           <div>
-            <div className="font-display text-2xl">Aperture<span className="text-accent">.</span></div>
+            <div className="font-display text-2xl">Vision Studio<span className="text-accent">.</span></div>
             <p className="mt-3 text-sm text-muted-foreground max-w-xs">
-              Quiet, considered photography for the moments worth keeping.
+              Photography is the art of capturing moments and turning them into lasting memories.
             </p>
           </div>
           <div>
             <p className="eyebrow mb-3">Studio</p>
-            <p className="text-sm text-muted-foreground">12 Linden Lane<br />Brooklyn, NY 11201</p>
+            <p className="text-sm text-muted-foreground">Karnataka, Kumta<br />581343</p>
           </div>
           <div>
             <p className="eyebrow mb-3">Contact</p>
-            <p className="text-sm text-muted-foreground">hello@aperture.studio<br />+1 (212) 555 0134</p>
+            <p className="text-sm text-muted-foreground">hello@vision.studio<br />+91 8792042301</p>
           </div>
         </div>
         <div className="border-t border-border">
           <p className="mx-auto max-w-7xl px-6 md:px-10 py-5 text-xs text-muted-foreground">
-            © {new Date().getFullYear()} Pixel Photography Studio. All rights reserved.
+            © {new Date().getFullYear()} Vision Photography Studio. All rights reserved.
           </p>
         </div>
       </footer>

@@ -20,7 +20,7 @@ function Index() {
         <div className="relative z-10 h-full mx-auto max-w-7xl px-6 md:px-10 flex flex-col justify-end pb-24">
           <p className="eyebrow text-white/80"></p>
           <h1 className="mt-4 text-white text-5xl md:text-7xl lg:text-8xl leading-[1.05] max-w-4xl">
-            Photographs that hold the quiet moments.
+            Photography Booking Management System.
           </h1>
           <div className="mt-10 flex flex-wrap gap-4">
             <Link to="/booking" className="btn-primary">Book a session</Link>
@@ -36,7 +36,7 @@ function Index() {
         </div>
         <div className="md:col-span-8">
           <h2 className="text-3xl md:text-5xl leading-tight">
-            A small studio devoted to honest, unhurried photography — for portraits, events, and the people you love.
+            We capture moments with simplicity, creativity, and a personal touch.
           </h2>
           <Link to="/about" className="inline-block mt-8 eyebrow text-foreground border-b border-foreground pb-1">
             More about us →
